@@ -17,4 +17,6 @@ wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/ALL.chr22
 wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/phase1_integrated_calls.20101123.ALL.panel"
 ```
 ## Results of PCA that Inspired Building a Classifier:
+Principal component analysis (PCA) results in the samples clustering by superpopulation. The European, East Asian and African samples form unique clusters. Whereas, the American samples are spread across the PC1-PC2 space, with significant overlap with the European Cluster. This is expected as Europeans contribute signifcantly to American ancestry and snps distributions are commonly used to determine sample ancestry.
+
 ![PCA clusters samples by Superpopulation](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Superpopulation_PCA.png)
