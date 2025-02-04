@@ -17,4 +17,4 @@ wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/ALL.chr22
 wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/phase1_integrated_calls.20101123.ALL.panel"
 ```
 ## Results of PCA that Inspired Building a Classifier:
-
+![PCA clusters samples by Superpopulation](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Superpopulation_PCA.png)
