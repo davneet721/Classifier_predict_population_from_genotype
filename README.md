@@ -1,4 +1,4 @@
-Building a classifier that can predict sample superpopulation from snps-genotypes data from the thousand genomes project. Previously used PCA  inspired by [this paper](https://www.nature.com/articles/nature07331) to show that the most data clusters by superpopulation groups -- except there's significant overlap between the European and American ancestry groups.
+Building a classifier that can predict sample superpopulation from snps-genotypes data from the thousand genomes project. Previously used PCA [here](https://github.com/davneet721/PCA_Genotypes) inspired by [this paper](https://www.nature.com/articles/nature07331) to show that the most data clusters by superpopulation groups -- except there's significant overlap between the European and American ancestry groups.
 
 ## Preview VCF on 42basepairs
 
