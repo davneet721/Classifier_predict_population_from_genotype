@@ -1,14 +1,15 @@
+## *Ongoing Project*
 # Introduction
 
 Building a classifier that can predict sample superpopulation and population (higher resolution) from snps-genotypes data from the thousand genomes project. Previously used PCA [here](https://github.com/davneet721/PCA_Genotypes) on chromosome 22 snps data from thousands of samples inspired by [this paper](https://www.nature.com/articles/nature07331) to show that the most data clusters by superpopulation groups (Fig.1) -- except there's significant overlap between the European and American ancestry groups. Superpopulations are comprised of populations. PCA on snps from the single chromosome don't result in clear population clusters (Fig.2)
 
-# Preview VCF on 42basepairs
+## Preview VCF on 42basepairs
 
 * [Preview variants](https://42basepairs.com/browse/s3/1000genomes/release/20110521?file=ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz&preview=variants)
 * [Subsample variants](https://42basepairs.com/browse/s3/1000genomes/release/20110521?file=ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz&preview=subsample&loci=22%3A16000000-16100000)
 
 
-# Data files used:
+## Data files used:
 
 ```bash
 # Download from 42basepairs
@@ -30,3 +31,15 @@ PCA results with samples colored by population. The different populations within
 
 ![PCA clusters samples by Population](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Population_PCA.png)
 *Fig.2: PCA clusters samples by Population.*
+
+# Results
+
+## Superpopulation Classifier Trained on Chromosome 22 snps
+
+### Optimizing
+
+## Population Classifier Trained on Chromosome 22 snps
+
+## Population Classifier Trained on Chromosome __ snps
+
+## Model Stacking
