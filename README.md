@@ -1,4 +1,4 @@
-## *Ongoing Project*
+### *Ongoing Project...*
 # Introduction
 
 Building a classifier that can predict sample superpopulation and population (higher resolution) from snps-genotypes data from the thousand genomes project. Previously used PCA [here](https://github.com/davneet721/PCA_Genotypes) on chromosome 22 snps data from thousands of samples inspired by [this paper](https://www.nature.com/articles/nature07331) to show that the most data clusters by superpopulation groups (Fig.1) -- except there's significant overlap between the European and American ancestry groups. Superpopulations are comprised of populations. PCA on snps from the single chromosome don't result in clear population clusters (Fig.2)
