@@ -61,6 +61,9 @@ Depending on the random_state of the random forest classifier, the features can 
 - [Important Features Predictive of East Asian Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/East_Asian_Feature_Importance.csv)
 - [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
 
+## Model Reduction
+...
+
 # Phase 2
 ## PCA on Snps from Chromosome 22 and 15
 - ### Superpopulation
