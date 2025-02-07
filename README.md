@@ -23,13 +23,13 @@ wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/phase1_in
 # Background
 
 ## PCA on Chromosome 22 Snps that Inspired Building a Classifier:
-### Superpopulation
+### - Superpopulation
 Principal component analysis (PCA) with samples colored by superpopulation. The European, East Asian and African samples form unique clusters. Whereas, the American samples are spread across the PC1-PC2 space, with significant overlap with the European Cluster. This is expected as Europeans contribute signifcantly to American ancestry and snps distributions are commonly used to determine sample ancestry.
 
 ![PCA clusters samples by Superpopulation](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Superpopulation_PCA.png)
 *Fig.1: PCA clusters samples by Superpopulation.*
 
-### Population
+### - Population
 PCA results with samples colored by population. The different populations within a superpopulation are indistinguishable by the first two principal components.
 
 ![PCA clusters samples by Population](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Population_PCA.png)
@@ -37,12 +37,12 @@ PCA results with samples colored by population. The different populations within
 
 # Results
 
-## Superpopulation Classifier Trained on Chromosome 22 snps
+## - Superpopulation Classifier Trained on Chromosome 22 snps
 I optimize the model by performing grad search with cross validation of the model parameters and acheive a high training and validation accuracy.
 
 In an initial model fitting, I included the samples of American Ancestry. To distinguish between the American and European samples, the model overfit to the training set as there's significant overlap between the two groups. This is because they American samples have significant European ancestry (Fig. 1). In the final form of the model, I've removed the American samples and trained the model to predict European, East Asian, and African ancestry which form significantly distinguished populations.
 
-### Training Set Confusion Matrix
+### - Training Set Confusion Matrix
 
 ![Training Set Confusion Matrix](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/population_training_cm_heatmap.png)
 *Fig.3: Training Set Confusion Matrix: The number of samples corresponding to the true value on the y-axis vs. the predicted value from random forest model on the x-axis.*
