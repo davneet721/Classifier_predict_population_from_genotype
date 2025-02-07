@@ -97,6 +97,7 @@ Three different Snps in the same gene, SLC24A5, are the most important features 
 
 5) rs11912448: This SNP is located in the LOC646279 gene, a **gene of unknown function** that may relate to other nearby genes. While specific studies directly linking rs11912448 to health outcomes may be limited, its association with nearby known genes contributes to ongoing research in the context of genetic epidemiology, particularly immune-related traits and various diseases.
 
+# Phase 2
 ## Population Classifier Trained on Chromosome 22 snps
 
 ## Population Classifier Trained on Chromosome __ snps
