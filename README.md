@@ -46,6 +46,15 @@ In an initial model fitting, I included the samples of American Ancestry. To dis
 ![Validation Set Confusion Matrix](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/population_validation_cm_heatmap.png)
 *Fig.4: Validation Set Confusion Matrix: The number of samples corresponding to the true value on the y-axis vs. the predicted value from random forest model on the x-axis.*
 
+## Important Features for Ancestry Prediction
+I utilize cross validation and averaged feature importance for each ancestry over different initial random states of the random forest classifiers until the features reach stable contributions.
+
+Depending on the random_state of the random forest classifier, the features can have different importances assigned to them. To have a higher confidence and more reliable list of **important features**, I iterate over random_state and employ cross validation. This helps to mitigate the randomness inherent in the tree-building process and provides a more robust estimate of feature importance.
+
+- [Important Features Predictive of African Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/African_Feature_Importance.csv)
+- [Important Features Predictive of East Asian Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/East_Asian_Feature_Importance.csv)
+- [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
+
 ## Population Classifier Trained on Chromosome 22 snps
 
 ## Population Classifier Trained on Chromosome __ snps
