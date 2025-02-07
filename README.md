@@ -42,8 +42,12 @@ I optimize the model by performing grad search with cross validation of the mode
 
 In an initial model fitting, I included the samples of American Ancestry. To distinguish between the American and European samples, the model overfit to the training set as there's significant overlap between the two groups. This is because they American samples have significant European ancestry (Fig. 1). In the final form of the model, I've removed the American samples and trained the model to predict European, East Asian, and African ancestry which form significantly distinguished populations.
 
+### Training Set Confusion Matrix
+
 ![Training Set Confusion Matrix](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/population_training_cm_heatmap.png)
 *Fig.3: Training Set Confusion Matrix: The number of samples corresponding to the true value on the y-axis vs. the predicted value from random forest model on the x-axis.*
+
+### Validation Set Confusion Matrix
 
 ![Validation Set Confusion Matrix](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/population_validation_cm_heatmap.png)
 *Fig.4: Validation Set Confusion Matrix: The number of samples corresponding to the true value on the y-axis vs. the predicted value from random forest model on the x-axis.*
