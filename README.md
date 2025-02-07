@@ -62,7 +62,8 @@ Depending on the random_state of the random forest classifier, the features can 
 - [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
 
 ## Looking into the Functions and Association of the top 5 Important Snps for Each Ancestry:
-### -> Three different Snps in the same gene, SLC24A5, are the most important features for all three ancestories!! This gene is associated with **skin pignmentation**. This is pretty promising that the model has predicted something of biological significance!
+Three different Snps in the same gene, SLC24A5, are the most important features for all three ancestories!! This gene is associated with **skin pignmentation**. This is pretty promising that the model has predicted something of biological significance!
+
 #### For African Ancestry Prediction
 1) rs6007892: rs6007892 is located in the <u>**SLC24A5 gene**</u>, which is known to play a significant role in **skin pigmentation**, particularly in the context of **adaptation to varying UV radiation levels**. Variants in this gene have been associated with lighter skin pigmentation in European populations. The presence of certain alleles is particularly notable in discussions of ancestry and adaptive traits among populations.
 
