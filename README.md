@@ -23,12 +23,14 @@ wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/phase1_in
 # Background
 
 ## PCA on Chromosome 22 Snps that Inspired Building a Classifier:
-### Principal component analysis (PCA) with samples colored by superpopulation. The European, East Asian and African samples form unique clusters. Whereas, the American samples are spread across the PC1-PC2 space, with significant overlap with the European Cluster. This is expected as Europeans contribute signifcantly to American ancestry and snps distributions are commonly used to determine sample ancestry.
+### Superpopulation
+Principal component analysis (PCA) with samples colored by superpopulation. The European, East Asian and African samples form unique clusters. Whereas, the American samples are spread across the PC1-PC2 space, with significant overlap with the European Cluster. This is expected as Europeans contribute signifcantly to American ancestry and snps distributions are commonly used to determine sample ancestry.
 
 ![PCA clusters samples by Superpopulation](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Superpopulation_PCA.png)
 *Fig.1: PCA clusters samples by Superpopulation.*
 
-### PCA results with samples colored by population. The different populations within a superpopulation are indistinguishable by the first two principal components.
+### Population
+PCA results with samples colored by population. The different populations within a superpopulation are indistinguishable by the first two principal components.
 
 ![PCA clusters samples by Population](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Population_PCA.png)
 *Fig.2: PCA clusters samples by Population.*
