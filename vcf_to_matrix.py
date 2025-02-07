@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import decomposition
 import pandas as pd
 
-vcf_filename = "data/ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz"
+vcf_filename = "data/ALL.chr8.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz"
 panel_filename = "data/phase1_integrated_calls.20101123.ALL.panel"
 
 genotypes = []
@@ -13,14 +13,14 @@ with VariantFile(vcf_filename) as vcf_reader:
     counter = 0
     for record in vcf_reader:
         counter += 1
-        if counter % 1 == 0:
+        if counter % 10 == 0:
             alleles = [record.samples[x].allele_indices for x in record.samples]
             samples = [sample for sample in record.samples]
             genotypes.append(alleles)
             variant_ids.append(record.id)
-        if counter % 4943 == 0:
+        if counter % 16000 == 0:
             print(counter)
-            print(f'{round(100 * counter / 494328)}%')
+            print(f'{round(100 * counter / 1600000)}%')
         # if counter >= 10000:
         #     break
 
