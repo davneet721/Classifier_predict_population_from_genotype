@@ -57,7 +57,12 @@ I utilize cross validation and averaged feature importance for each ancestry ove
 
 Depending on the random_state of the random forest classifier, the features can have different importances assigned to them. To have a higher confidence and more reliable list of **important features**, I iterate over random_state and employ cross validation. This helps to mitigate the randomness inherent in the tree-building process and provides a more robust estimate of feature importance.
 
-### Looking into the Functions and Association of the top 5 Important Snps for Each Ancestry:
+- [Important Features Predictive of African Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/African_Feature_Importance.csv)
+- [Important Features Predictive of East Asian Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/East_Asian_Feature_Importance.csv)
+- [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
+
+## Looking into the Functions and Association of the top 5 Important Snps for Each Ancestry:
+### -> Three different Snps in the same gene, SLC24A5, are the most important features for all three ancestories!! This gene is associated with **skin pignmentation**. This is pretty promising that the model has predicted something of biological significance!
 #### For African Ancestry Prediction
 1) rs6007892: rs6007892 is located in the <u>**SLC24A5 gene**</u>, which is known to play a significant role in **skin pigmentation**, particularly in the context of **adaptation to varying UV radiation levels**. Variants in this gene have been associated with lighter skin pigmentation in European populations. The presence of certain alleles is particularly notable in discussions of ancestry and adaptive traits among populations.
 
@@ -90,10 +95,6 @@ Depending on the random_state of the random forest classifier, the features can 
 4) rs361557: Located in the NOD2 gene (Nucleotide-binding oligomerization domain-containing protein 2). This SNP is well-known for its involvement in the **immune response**, particularly regarding susceptibility to **Crohn’s disease**. The NOD2 gene plays a role in detecting bacterial components, and variations in this gene can increase the risk of inflammatory bowel disease.
 
 5) rs11912448: This SNP is located in the LOC646279 gene, a **gene of unknown function** that may relate to other nearby genes. While specific studies directly linking rs11912448 to health outcomes may be limited, its association with nearby known genes contributes to ongoing research in the context of genetic epidemiology, particularly immune-related traits and various diseases.
-
-- [Important Features Predictive of African Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/African_Feature_Importance.csv)
-- [Important Features Predictive of East Asian Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/East_Asian_Feature_Importance.csv)
-- [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
 
 ## Population Classifier Trained on Chromosome 22 snps
 
