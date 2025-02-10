@@ -27,13 +27,13 @@ wget "https://42basepairs.com/download/s3/1000genomes/release/20110521/phase1_in
 Principal component analysis (PCA) with samples colored by superpopulation. The European, East Asian and African samples form unique clusters. Whereas, the American samples are spread across the PC1-PC2 space, with significant overlap with the European Cluster. This is expected as Europeans contribute signifcantly to American ancestry and snps distributions are commonly used to determine sample ancestry.
 
 ![PCA clusters samples by Superpopulation](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Superpopulation_PCA.png)
-*Fig.1: PCA clusters samples by Superpopulation.*
+*Fig.1: PCA clusters samples, colored by Superpopulation.*
 
 - ### Population
 PCA results with samples colored by population. The different populations within a superpopulation are indistinguishable by the first two principal components.
 
 ![PCA clusters samples by Population](https://github.com/davneet721/PCA_Genotypes/blob/main/Figures/Population_PCA.png)
-*Fig.2: PCA clusters samples by Population.*
+*Fig.2: PCA clusters samples, colored by Population.*
 
 # Results
 
@@ -70,13 +70,13 @@ Depending on the random_state of the random forest classifier, the features can 
 Principal component analysis (PCA) with samples colored by superpopulation. The European, East Asian and African samples form unique clusters. The American samples are more spread across the PC1-PC2 spaceclose to the European Cluster, but perhaps better distinguished than PCA on only chromosome 22 -- need to quantify. Will see how a classification model performs.
 
 ![PCA clusters samples by Superpopulation](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Superpopulation_2chr_PCA.png)
-*Fig.5: PCA clusters samples by Superpopulation.*
+*Fig.5: PCA clusters samples, colored by Superpopulation.*
 
 - ### Population
 PCA results with samples colored by population. The different populations within a superpopulation form overlapping clusters and are not clearly distinguishable by the first two principal components.
 
 ![PCA clusters samples by Population](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Population_2chr_PCA.png)
-*Fig.6: PCA clusters samples by Population.*
+*Fig.6: PCA clusters samples, colored by Population.*
 
 ## Population Classifier Trained on Chromosome 22 snps
 
