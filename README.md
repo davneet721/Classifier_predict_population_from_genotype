@@ -65,7 +65,7 @@ Depending on the random_state of the random forest classifier, the features can 
 - [Important Features Predictive of East Asian Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/East_Asian_Feature_Importance.csv)
 - [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
 
-## Model Reduction
+## Superpopulation Classifier Model Reduction
 ![Model Reduction](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Model_Reduction_22.png)
 *Fig.6: Accuracy Scores as a function of the number of important features included in model*
 
