@@ -57,12 +57,17 @@ I utilize cross validation and averaged feature importance for each ancestry ove
 
 Depending on the random_state of the random forest classifier, the features can have different importances assigned to them. To have a higher confidence and more reliable list of **important features**, I iterate over random_state and employ cross validation. This helps to mitigate the randomness inherent in the tree-building process and provides a more robust estimate of feature importance.
 
+### Important Feature Stability
+![Feature Stability](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Feature_Stability_22.png)
+*Fig.5: Stability of Features with increase in the number of averaging steps over random_states.*
+
 - [Important Features Predictive of African Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/African_Feature_Importance.csv)
 - [Important Features Predictive of East Asian Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/East_Asian_Feature_Importance.csv)
 - [Important Features Predictive of European Ancestry](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Results/European_Feature_Importance.csv)
 
 ## Model Reduction
-...
+![Model Reduction]([https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Feature_Stability_22.png](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Model_Reduction_22.png))
+*Fig.6: Accuracy Scores as a function of the number of important features included in model*
 
 # Phase 2
 ## PCA on Snps from Chromosome 22 and 15
@@ -70,13 +75,13 @@ Depending on the random_state of the random forest classifier, the features can 
 Principal component analysis (PCA) with samples colored by superpopulation. The European, East Asian and African samples form unique clusters. The American samples are more spread across the PC1-PC2 spaceclose to the European Cluster, but perhaps better distinguished than PCA on only chromosome 22 -- need to quantify. Will see how a classification model performs.
 
 ![PCA clusters samples by Superpopulation](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Superpopulation_2chr_PCA.png)
-*Fig.5: PCA clusters samples, colored by Superpopulation.*
+*Fig.7: PCA clusters samples, colored by Superpopulation.*
 
 - ### Population
 PCA results with samples colored by population. The different populations within a superpopulation form overlapping clusters and are not clearly distinguishable by the first two principal components.
 
 ![PCA clusters samples by Population](https://github.com/davneet721/Classifier_predict_population_from_genotype/blob/main/Figures/Population_2chr_PCA.png)
-*Fig.6: PCA clusters samples, colored by Population.*
+*Fig.8: PCA clusters samples, colored by Population.*
 
 ## Population Classifier Trained on Chromosome 22 snps
 
